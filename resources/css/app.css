@@ -1,0 +1,297 @@
+/* public/css/app.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 10px 0;
+}
+
+.header-facebook-icon{
+    display: flex;
+    justify-content: right;
+}
+
+.website-header-main-title {
+    background: linear-gradient(125deg, rgb(64, 115, 115), rgb(48, 52, 64));
+    color: white;
+    box-shadow: 10px 10px 10px black;
+}
+
+.website-header-main-title p{
+    line-height: 1.6;
+    margin-bottom: 5px;
+    font-size: 1.8vw;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 500;
+    text-shadow: 0 4px 4px #23168e, 0 2px 8px #10ff00, 0 2px 200px #000000;
+}
+
+.website-header-main-title a {
+    color : white;
+}
+
+.header-image-container {
+    width: 100%;
+    height: 100%;
+}
+
+.header-image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the container */
+}
+
+
+.ticker-container {
+    width: 100%;
+    height: 30px;
+    overflow: hidden;
+    background-color: #fff;
+    position: relative;
+}
+
+.ticker-item {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: top 0.5s ease-in-out;
+}
+
+.ashbin-padding-top {
+    padding-top: 40px;
+}
+
+.ashbin-widget-title {
+    border-bottom: 2px solid #143968;
+    font-size: 18px;
+    margin-bottom: 15px;
+    padding-bottom: 0;
+}
+
+.ashbin-widget-title span{
+    background: linear-gradient(125deg, rgb(64, 115, 115), rgb(48, 52, 64));
+    color: white;
+    box-shadow: 10px 10px 10px black;
+    padding: 6px 12px;
+    display: inline-block;
+}
+
+.ashbin-widget-title h3{
+    line-height: 1.2;
+}
+
+.ashbin-a-tag a{
+    text-decoration: none;
+    color: #143968;
+}
+
+.ashbin-widget-image img{
+    max-width: 100%;
+    height: auto;
+    padding: 5px 0 5px 0;
+}
+
+.website-footer-main-title {
+    background: linear-gradient(125deg, rgb(64, 115, 115), rgb(48, 52, 64));
+    color: white;
+    box-shadow: 10px 10px 10px black;
+    width: 99%;
+}
+
+.website-footer-main-title p{
+    line-height: 1.6;
+    margin-bottom: 5px;
+    font-size: 0.9vw;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 500;
+    text-shadow: 0 4px 4px #23168e, 0 2px 8px #10ff00, 0 2px 200px #000000;
+}
+
+.website-footer-main-title a {
+    color : white;
+}
+
+.ashbin-footer-img {
+    padding: 20px 200px 20px 200px;
+}
+
+.ashbin-footer-img div{
+    text-align: center;
+}
+.ashbin-footer-img img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+.ashbin-footer-widgets-wrapper {
+    background: linear-gradient(125deg, rgb(64, 115, 115), rgb(48, 52, 64));
+    padding-top: 15px;
+}
+
+.ashbin-footer-widget-title {
+    border-bottom: 2px solid #143968;
+    font-size: 18px;
+    margin-bottom: 15px;
+    padding-bottom: 0;
+}
+
+.ashbin-footer-widget-title span{
+    background-color: #143968;
+    color: white;
+    box-shadow: 10px 10px 10px black;
+    padding: 6px 12px;
+    display: inline-block;
+
+}
+
+.website-footer-content a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.ashbin-footer-widget-title h3{
+    line-height: 1.2;
+}
+
+.ashbin-footer-end p {
+    text-align: center;
+}
+
+.ashbin-footer-end a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*data page css starts*/
+.ashbin-accordion-design {
+    background-color: #143968 !important;
+    color: white !important;
+}
+
+.ashbin-accordion-design::after {
+    background-color: white !important;
+}
+/*data page css ends*/
+
+/*main title design starts*/
+.ashbin-title {
+    font-size: 2em;
+    font-weight: bold;
+    color: #333;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+.ashbin-subtitle {
+    font-size: 1.5em;
+    color: #666;
+    text-align: center;
+
+}
+/*main title design ends*/
+
+.ashbin-investigator-image img{
+    max-width: 100%;
+    height: auto;
+    padding: 5px 0 5px 0;
+}
+
+.ashbin-button {
+    font-size: 18px;
+    margin-bottom: 15px;
+    padding-bottom: 0;
+}
+
+.ashbin-button span{
+    background: linear-gradient(125deg, rgb(64, 115, 115), rgb(48, 52, 64));
+    color: white;
+    box-shadow: 10px 10px 10px black;
+    padding: 6px 12px;
+    display: inline-block;
+}
+
+.ashbin-gallery-img div{
+    text-align: center;
+}
+.ashbin-gallery-img img{
+    max-width: 100%;
+    height: auto;
+    padding: 5px 0 5px 0;
+}
+
+.ashbin-contact-content {
+    text-align: center;
+}
+
+.ashbin-sticky-top {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.ashbin-active li .nav-link.hover {
+    background-color: #143968 !important;
+}
+
+.ashbin-active li .nav-link.active {
+    background-color: #143968 !important;
+    color: #ffffff;
+}
+
+
+.ashbin-padding {
+    padding: 0px 0px 0px 0px !important;
+}
+
+
+.logo-img {
+    height: 100px; /* Set the desired height */
+    object-fit: contain; /* Maintain aspect ratio */
+    width: auto; /* Automatically adjust width based on aspect ratio */
+    display: block;
+    margin: 0 auto; /* Center the images */
+}
+
+.feedback-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.sliding-text {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+    color: #ffffff;
+}
+
+.sliding-text span {
+    display: inline-block;
+    padding-left: 100%;
+    animation: slide 7s linear infinite;
+}
+
+@keyframes slide {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+}
