@@ -1,7 +1,7 @@
-<!-- resources/views/investigators.blade.php -->
+<!-- resources/views/people.blade.php -->
 @extends('layouts.app')
 
-@section('title', 'investigators')
+@section('title', 'people')
 
 @section('content')
 <div class="ashbin-section">
