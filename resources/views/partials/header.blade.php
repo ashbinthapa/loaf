@@ -1,5 +1,7 @@
 <!-- resources/views/partials/header.blade.php -->
 <div class="container">
+    {{ $formattedDate }}<br>
+
     Latest:
     <div class="ticker-container">
 
