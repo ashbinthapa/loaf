@@ -15,13 +15,13 @@
 
 <div class="website-header-main-title">
     <p>
-        Improving Learning: Developing Measures of Accountability and Evaluating their Association with Student’s Gains in Achievement in Nepal
+        Labor Outmigration, Agricultural Productivity and Food Services
     </p>
 </div>
 
-<div class="header-image-container">
+<!-- <div class="header-image-container">
     <img src="{{ asset('uploads/idea header image.jpg') }}" alt="Idea-Iser">
-</div>
+</div> -->
 
 <div class="container-fluid ashbin-sticky-top website-header-main-title">
     <div class="container">
@@ -41,28 +41,37 @@
                         <li class="nav-item">
                             <a class="nav-link {{ request()->is('publication') ? 'active' : '' }}" href="/publication">PUBLICATIONS</a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle {{ request()->is('people/*') ? 'active' : '' }}" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                PEOPLE
+                        <li class="nav-item">
+                            <a class="nav-link {{ request()->is('people') ? 'active' : '' }}" href="/people">PEOPLE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link dropdown-toggle {{ request()->is('capacitybuilding/*') ? 'active' : '' }}" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                CAPACITY BUILDING
                             </a>
                             <ul class="dropdown-menu website-header-main-title">
-                                <li><a class="dropdown-item" href="/people/investigators">INVESTIGATORS</a></li>
-                                <li><a class="dropdown-item" href="/people/staff">STAFF</a></li>
-                                <li><a class="dropdown-item" href="/people/collaborator">COLLABORATORS</a></li>
+                                <li><a class="dropdown-item" href="/capacitybuilding/trainings">General Interviewing Techniques (GIT) Training</a></li>
+                                <li><a class="dropdown-item" href="/capacitybuilding/study-specific-training">Study Specific Training</a></li>
+                                <li><a class="dropdown-item" href="/capacitybuilding/supervisors-trainings">Supervisors Training</a></li>
+                                <li><a class="dropdown-item" href="/capacitybuilding/crop-cutting-training">Crop Cutting Training</a></li>
+                                <li><a class="dropdown-item" href="/capacitybuilding/survey-data-analysis-training">Survey Data Analysis Training</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link {{ request()->is('product') ? 'active' : '' }}" href="/product">PRODUCTS</a>
+                            <a class="nav-link dropdown-toggle {{ request()->is('products/*') ? 'active' : '' }}" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                PRODUCTS
+                            </a>
+                            <ul class="dropdown-menu website-header-main-title">
+                                <li><a class="dropdown-item" href="/products/presentations">Presentations</a></li>
+                                <li><a class="dropdown-item" href="/policy-brief">Policy Brief</a></li>
+                                <li><a class="dropdown-item" href="/products/dissemination">Dissemination</a></li>
+                                <li><a class="dropdown-item" href="/working-paper">Working Paper</a></li>
+                            </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link {{ request()->is('capacitybuilding/*') || request()->is('capacitybuilding') ? 'active' : '' }}" href="/capacitybuilding">CAPACITY BUILDING</a>
+                            <a class="nav-link {{ request()->is('events') ? 'active' : '' }}" href="/events">EVENTS</a>
                         </li>
-
                         <li class="nav-item">
                             <a class="nav-link {{ request()->is('gallery') ? 'active' : '' }}" href="/gallery">GALLERY</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link {{ request()->is('activity/*') || request()->is('activity') ? 'active' : '' }}" href="/activity">ACTIVITIES</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link {{ request()->is('contact') ? 'active' : '' }}" href="/contact">CONTACT</a>
