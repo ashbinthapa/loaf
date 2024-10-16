@@ -1,16 +1,12 @@
 <!-- resources/views/partials/header.blade.php -->
 <div class="container">
-    {{ $formattedDate }}<br>
+    {{ $formattedDate }}
 
     Latest:
-    <div class="ticker-container">
+    <a href="https://www.facebook.com/isernepalofficial/?ref=aymt_homepage_panel&eid=ARCZ8VyOFfG6ZEJl7hyyqg7-0wlTGyxtRQQwQU2psMbjH59aUSY-HQ5o-YnV3JiVR1NXkPDdzVzzR-06">
+        <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
+    </a>
 
-    </div>
-    <div class="header-facebook-icon">
-        <a href="https://www.facebook.com/isernepalofficial/?ref=aymt_homepage_panel&eid=ARCZ8VyOFfG6ZEJl7hyyqg7-0wlTGyxtRQQwQU2psMbjH59aUSY-HQ5o-YnV3JiVR1NXkPDdzVzzR-06">
-            <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
-        </a>
-    </div>
 </div>
 
 <div class="website-header-main-title">
