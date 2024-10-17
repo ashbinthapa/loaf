@@ -22,7 +22,7 @@
 <div class="container-fluid ashbin-sticky-top website-header-main-title">
     <div class="container">
         <nav class="navbar navbar-expand-lg ashbin-padding">
-            <div class="container-fluid">
+            <div class="container-`fluid`">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -73,10 +73,6 @@
                             <a class="nav-link {{ request()->is('contact') ? 'active' : '' }}" href="/contact">CONTACT</a>
                         </li>
                     </ul>
-                    <form class="d-flex ashbin-header-search" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="query">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
                 </div>
             </div>
         </nav>

@@ -6,9 +6,9 @@
         </p>
     </div>
     <div class="row ashbin-footer-img">
-        <div class="col-lg-4 col-6"><a href="#"> <img src="{{ asset('/uploads/logos/logo-ISER-N-120x120-transparent.png') }}" alt="Idea-Iser"></a></div>
-        <div class="col-lg-4 col-6"><a href="#"> <img src="{{ asset('/uploads/logos/logo-M-PSC-block-141x120.jpg') }}" alt="Idea-Iser"></a></div>
-        <div class="col-lg-4 col-6"><a href="#"> <img src="{{ asset('/uploads/logos/logo-ESRC-213x120.jpg') }}" alt="Idea-Iser"></a></div>
+        <div class="col-lg-4 col-6"><a href="#"> <img src="{{ asset('/images/index/logo-ISER-N-120x120.jpg') }}" alt="Idea-Iser"></a></div>
+        <div class="col-lg-4 col-6"><a href="#"> <img src="{{ asset('/images/index/logo-M-PSC-block-141x120.jpg') }}" alt="Idea-Iser"></a></div>
+        <div class="col-lg-4 col-6"><a href="#"> <img src="{{ asset('/images/index/logo-ESRC-213x120.jpg') }}" alt="Idea-Iser"></a></div>
     </div>
 </div>
 <div class="container-fluid ashbin-footer-widgets-wrapper">
@@ -55,7 +55,7 @@
             </div>
             <div class="col-sm-12 col-md-6 col-lg-3 col-xxl-3">
                 <h3 class="ashbin-footer-widget-title"><span>Feedback</span></h3>
-                <img src="{{ asset('/uploads/logos/World_3D_Grey-1024x605.png') }}" alt="world-map-logo" class="feedback-img">
+                <img src="{{ asset('/images/index/logo-M-PSC-block-141x120.jpg') }}" alt="world-map-logo" class="feedback-img">
                 <div class="sliding-text">
                     <span>Please provide your feedback and suggestions.</span>
                 </div>
