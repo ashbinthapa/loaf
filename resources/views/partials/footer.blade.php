@@ -23,39 +23,29 @@
                 <a href="#"><i class="fa fa-phone"></i>+977-56-591054 |56-592406</a>
                 <br>
                 <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i>iser.nepal@outlook.com</a>
-                <br>
-                <div class="row">
-                    <div class="col-6">
-                        <img src="{{ asset('/uploads/logos/logo-ISER-N-120x120-transparent.png') }}" alt="ISER Nepal Logo" class="logo-img">
-                    </div>
-                    <div class="col-6">
-                        <img src="{{ asset('/uploads/logos/logo-umich-1-150x150.png') }}" alt="UMich Logo" class="logo-img">
-                    </div>
-                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3 col-xxl-3">
+                <h3 class="ashbin-footer-widget-title"><span>LOAF</span></h3>
+                <ul>
+                    <li><a href="https://isernepal.org.np/"> GALLERY</a></li>
+                    <li><a href="https://spe.psc.isr.umich.edu/"> CONTACT</a></li>
+                    <li><a href="https://www.psc.isr.umich.edu/"> PEOPLE</a></li>
+                    <li><a href="https://umich.edu/"> PRODUCTS</a></li>
+                    <li><a href="https://www.ukri.org/councils/esrc/"> EVENTS</a></li>
+                </ul>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-3 col-xxl-3">
                 <h3 class="ashbin-footer-widget-title"><span>Important Links</span></h3>
                 <ul>
                     <li><a href="https://isernepal.org.np/"> ISER-N</a></li>
-                    <li><a href="https://spe.psc.isr.umich.edu/"> Program in Society, Population, and Environment</a></li>
-                    <li><a href="https://www.psc.isr.umich.edu/"> Population Studies Center</a></li>
-                    <li><a href="https://umich.edu/"> University of Michigan</a></li>
-                    <li><a href="https://www.ukri.org/councils/esrc/"> DFID-ESRC</a></li>
-                    <li><a href="https://www.bharatpurmun.gov.np/"> Bharatpur Municipality</a></li>
-                    <li><a href="https://www.ero.gov.np/"> Education Review Office</a></li>
-                    <li><a href="https://loaf.isernepal.org/">LOAF</a></li>
-
-                </ul>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-3 col-xxl-3">
-                <h3 class="ashbin-footer-widget-title"><span>Recent Posts</span></h3>
-                <ul>
-
+                    <li><a href="https://idea.isernepal.org/"> IDEA</a></li>
+                    <li><a href="https://www.psc.isr.umich.edu/"> ISR-University of Michigan</a></li>
+                    <li><a href="https://www.gov.uk/government/organisations/department-for-international-development"> DFID-UK</a></li>
                 </ul>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-3 col-xxl-3">
                 <h3 class="ashbin-footer-widget-title"><span>Feedback</span></h3>
-                <img src="{{ asset('/images/index/logo-M-PSC-block-141x120.jpg') }}" alt="world-map-logo" class="feedback-img">
+                <img src="{{ asset('/images/index/World_3D_Grey-1024x605.png') }}" alt="world-map-logo" class="feedback-img">
                 <div class="sliding-text">
                     <span>Please provide your feedback and suggestions.</span>
                 </div>
