@@ -1,16 +1,21 @@
 <!-- resources/views/partials/header.blade.php -->
-<div class="container">
-    {{ $formattedDate }}
+<div class="container ashbin-footer-end">
+    <div class="row">
+        <div class="col-6">
+            {{ $formattedDate }} |
 
-    Latest:
-    <a href="https://www.facebook.com/isernepalofficial/?ref=aymt_homepage_panel&eid=ARCZ8VyOFfG6ZEJl7hyyqg7-0wlTGyxtRQQwQU2psMbjH59aUSY-HQ5o-YnV3JiVR1NXkPDdzVzzR-06">
-        <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
-    </a>
-
+            Latest:
+        </div>
+        <div class="col-6">
+            <a href="https://www.facebook.com/isernepalofficial/?ref=aymt_homepage_panel&eid=ARCZ8VyOFfG6ZEJl7hyyqg7-0wlTGyxtRQQwQU2psMbjH59aUSY-HQ5o-YnV3JiVR1NXkPDdzVzzR-06">
+                <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
+            </a>
+        </div>
+    </div>
 </div>
 
 <div class="website-header-main-title">
-<img src="{{ asset('/images/Cover-Page.jpg') }}" alt="loaf" class="feedback-img">
+    <img src="{{ asset('/images/Cover-Page.jpg') }}" alt="loaf" class="feedback-img">
 
 </div>
 

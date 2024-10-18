@@ -57,7 +57,7 @@
 <div class="container-fluid ashbin-footer-end">
     <div class="row">
         <div class="col-6">
-            <p>Copyright © 2024 IDEA. All rights reserved.</p>
+            <p>Copyright © 2024 LOAF. All rights reserved.</p>
         </div>
         <div class="col-6">
             <a href="https://www.facebook.com/isernepalofficial/?ref=aymt_homepage_panel&eid=ARCZ8VyOFfG6ZEJl7hyyqg7-0wlTGyxtRQQwQU2psMbjH59aUSY-HQ5o-YnV3JiVR1NXkPDdzVzzR-06">
