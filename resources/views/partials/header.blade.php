@@ -10,9 +10,8 @@
 </div>
 
 <div class="website-header-main-title">
-    <p>
-        Labor Outmigration, Agricultural Productivity and Food Services
-    </p>
+<img src="{{ asset('/images/Cover-Page.jpg') }}" alt="loaf" class="feedback-img">
+
 </div>
 
 <!-- <div class="header-image-container">

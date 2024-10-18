@@ -10,6 +10,9 @@
         <div class="col-lg-8 col-12">
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
+                    <div class="ashbin-section">
+                        <p class="ashbin-title">Labor Outmigration, Agricultural Productivity and Food Services</p>
+                    </div>
                     <div class="carousel-item active">
                         <img src="{{ asset('images/slider/1.jpg') }}" class="d-block w-100" alt="...">
                     </div>
