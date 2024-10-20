@@ -14,6 +14,9 @@ return new class extends Migration
         Schema::create('homes', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
+            $table->foreignId('user_id')->nullable()->nullOnDelete();
+            $table->longText('content')->nullable();
+            $table->softDeletes();
         });
     }
 
