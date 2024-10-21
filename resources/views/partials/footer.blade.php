@@ -2,7 +2,7 @@
 <div class="container">
     <div class="website-footer-main-title">
         <p>
-            Improving Learning: Developing Measures of Accountability and Evaluating their Association with Student’s Gains in Achievement in Nepal
+            Labor Outmigration, Agricultural Productivity and Food Security . University of Michigan © 2017 . SPE . ISER-N
         </p>
     </div>
     <div class="row ashbin-footer-img">
