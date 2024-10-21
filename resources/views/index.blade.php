@@ -39,6 +39,13 @@
                     </div>
                 </div>
             </div>
+            <div>
+                <p>
+                    @foreach ($data['posts_all'] as $post)
+                    {!! $post->content !!}
+                    @endforeach
+                </p>
+            </div>
         </div>
         <div class="col-lg-4 col-12">
             <form class="d-flex ashbin-header-search" role="search">
@@ -75,9 +82,5 @@
     </div>
 </div>
 
-<div>
-    <p>
 
-    </p>
-</div>
 @endsection

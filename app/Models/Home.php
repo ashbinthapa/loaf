@@ -18,4 +18,5 @@ class Home extends Model
     protected $fillable = [
         'user_id',
         'content',
-    ];}
+    ];
+}
