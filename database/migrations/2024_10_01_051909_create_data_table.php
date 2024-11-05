@@ -14,6 +14,10 @@ return new class extends Migration
         Schema::create('data', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
+            $table->longText('title');
+            $table->longText('instruments')->nullable();
+            $table->longText('data')->nullable();
+            $table->longText('codebook')->nullable();
         });
     }
 

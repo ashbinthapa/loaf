@@ -1,7 +1,7 @@
 <!-- resources/views/index.blade.php -->
 @extends('layouts.app')
 
-@section('title', 'IDEA - Improving Learning: Developing Measures of Accountability and Evaluating their Association with Student’s Gains in Achievement in Nepal')
+@section('title', 'LOAF - Labor Outmigration, Agricultural Productivity and Food Services')
 
 @section('content')
 
