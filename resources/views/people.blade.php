@@ -5,9 +5,7 @@
 
 @section('content')
 <div class="ashbin-section">
-    <p class="ashbin-title">Investigators</p>
     @foreach ($data['posts_all'] as $post)
-
     <div class="row">
         <div class="col-3 ashbin-investigator-image">
             <img src="{{ $post->image }}" alt="Idea-Iser">
