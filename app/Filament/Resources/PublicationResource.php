@@ -2,9 +2,9 @@
 
 namespace App\Filament\Resources;
 
-use App\Filament\Resources\DataResource\Pages;
-use App\Filament\Resources\DataResource\RelationManagers;
-use App\Models\Data;
+use App\Filament\Resources\PublicationResource\Pages;
+use App\Filament\Resources\PublicationResource\RelationManagers;
+use App\Models\Publication;
 use Filament\Forms;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
@@ -14,9 +14,10 @@ use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
 use Mohamedsabil83\FilamentFormsTinyeditor\Components\TinyEditor;
 
-class DataResource extends Resource
+
+class PublicationResource extends Resource
 {
-    protected static ?string $model = Data::class;
+    protected static ?string $model = Publication::class;
 
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
 
@@ -26,16 +27,9 @@ class DataResource extends Resource
             ->schema([
                 Forms\Components\TextInput::make('title')
                     ->label('Title'),
-                TinyEditor::make('instruments')
-                    ->label('Instruments')
+                TinyEditor::make('publication')
+                    ->label('Publication')
                     ->columnSpan('full'),
-                TinyEditor::make('data')
-                    ->label('Codebook')
-                    ->columnSpan('full'),
-                TinyEditor::make('codebook')
-                    ->label('Data')
-                    ->columnSpan('full')
-
             ]);
     }
 
@@ -69,9 +63,9 @@ class DataResource extends Resource
     public static function getPages(): array
     {
         return [
-            'index' => Pages\ListData::route('/'),
-            'create' => Pages\CreateData::route('/create'),
-            'edit' => Pages\EditData::route('/{record}/edit'),
+            'index' => Pages\ListPublications::route('/'),
+            'create' => Pages\CreatePublication::route('/create'),
+            'edit' => Pages\EditPublication::route('/{record}/edit'),
         ];
     }
 }

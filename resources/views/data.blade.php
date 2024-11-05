@@ -13,12 +13,12 @@
             <h5 class="card-title">{{ $post->title }}</h5>
         </div>
         <div class="card-body">
-            Instruments<br>
-            <p>{{$post->instruments}}</p><br>
-            Data <br>
-            <p>{{$post->data}}</p><br>
-            Codebook <br>
-            <p> {{ $post->codebook }}</p>
+            <h5>Instruments</h5>
+            <p>{!! $post->instruments !!}</p>
+            <h5>Codebook</h5>
+            <p>{!! $post->data !!}</p>
+            <h5>Data</h5>
+            <p> {!! $post->codebook !!}</p>
 
         </div>
     </div>

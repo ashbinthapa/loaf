@@ -8,6 +8,8 @@
     <p class="ashbin-title">PUBLICATIONS</p>
 </div>
 <div class="ashbin-section">
-    <p class="ashbin-subtitle">In Progress</p>
+    @foreach ($data['posts_all'] as $post)
+    {!! $post->publication !!} <br>
+    @endforeach
 </div>
 @endsection
