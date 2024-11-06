@@ -33,11 +33,11 @@
         <div class="ashbin-investigator-explanation">
             {!! $post->content !!}
         </div>
-        <div>
+        <!-- <div>
             <a href="{{ $post->cvupload }}">
                 <h3 class="ashbin-button"><span>Download CV</span></h3>
             </a>
-        </div>
+        </div> -->
     </div>
     @endforeach
 
