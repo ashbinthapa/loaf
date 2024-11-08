@@ -7,10 +7,10 @@ use App\Models\Page;
 
 class PageController extends Controller
 {
-    public function index($slug)
+    public function index($title)
     {
-        $data = Page::where('slug', $slug)->firstOrFail();
-        
+        $data = Page::where('title', $title)->firstOrFail();
+
 
         if (!$data) {
             abort(404); // Display a 404 error if the post is not found
