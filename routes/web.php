@@ -20,7 +20,7 @@ Route::get('/publication', [PublicationController::class, 'index']);
 
 Route::get('/people', [PeopleController::class, 'index']);
 
-Route::get('/{slug}', [PageController::class, 'index']);
+Route::get('/{title}', [PageController::class, 'index']);
 
 
 
