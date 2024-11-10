@@ -49,11 +49,11 @@
                                 CAPACITY BUILDING
                             </a>
                             <ul class="dropdown-menu website-header-main-title">
-                                <li><a class="dropdown-item" href="/capacitybuilding/trainings">General Interviewing Techniques (GIT) Training</a></li>
-                                <li><a class="dropdown-item" href="/capacitybuilding/study-specific-training">Study Specific Training</a></li>
-                                <li><a class="dropdown-item" href="/capacitybuilding/supervisors-trainings">Supervisors Training</a></li>
-                                <li><a class="dropdown-item" href="/capacitybuilding/crop-cutting-training">Crop Cutting Training</a></li>
-                                <li><a class="dropdown-item" href="/capacitybuilding/survey-data-analysis-training">Survey Data Analysis Training</a></li>
+                                <li><a class="dropdown-item" href="/trainings">General Interviewing Techniques (GIT) Training</a></li>
+                                <li><a class="dropdown-item" href="/study specific training">Study Specific Training</a></li>
+                                <li><a class="dropdown-item" href="/supervisors training">Supervisors Training</a></li>
+                                <li><a class="dropdown-item" href="/crop cutting training">Crop Cutting Training</a></li>
+                                <li><a class="dropdown-item" href="/survey data analysis training">Survey Data Analysis Training</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
@@ -61,9 +61,10 @@
                                 PRODUCTS
                             </a>
                             <ul class="dropdown-menu website-header-main-title">
-                                <li><a class="dropdown-item" href="/products/presentations">Presentations</a></li>
+                                <li><a class="dropdown-item" href="/products">Products</a></li>
+                                <li><a class="dropdown-item" href="/presentations">Presentations</a></li>
                                 <li><a class="dropdown-item" href="/policy-brief">Policy Brief</a></li>
-                                <li><a class="dropdown-item" href="/products/dissemination">Dissemination</a></li>
+                                <li><a class="dropdown-item" href="/dissemination">Dissemination</a></li>
                                 <li><a class="dropdown-item" href="/working-paper">Working Paper</a></li>
                             </ul>
                         </li>
