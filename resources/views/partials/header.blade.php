@@ -3,7 +3,6 @@
     <div class="row">
         <div class="col-6">
             {{ $formattedDate }} |
-
             Latest:
         </div>
         <div class="col-6">
