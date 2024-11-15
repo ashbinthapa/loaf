@@ -62,9 +62,9 @@
                             <ul class="dropdown-menu website-header-main-title">
                                 <li><a class="dropdown-item" href="/products">Products</a></li>
                                 <li><a class="dropdown-item" href="/presentations">Presentations</a></li>
-                                <li><a class="dropdown-item" href="/policy-brief">Policy Brief</a></li>
+                                <li><a class="dropdown-item" href="/policy brief">Policy Brief</a></li>
                                 <li><a class="dropdown-item" href="/dissemination">Dissemination</a></li>
-                                <li><a class="dropdown-item" href="/working-paper">Working Paper</a></li>
+                                <li><a class="dropdown-item" href="/working paper">Working Paper</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
