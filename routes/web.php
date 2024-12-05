@@ -22,6 +22,4 @@ Route::get('/people', [PeopleController::class, 'index']);
 
 Route::get('/{title}', [PageController::class, 'index']);
 
-
-
-
+Route::get('/gallery');
