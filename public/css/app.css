@@ -295,3 +295,10 @@ header {
     0% { transform: translateX(100%); }
     100% { transform: translateX(-100%); }
 }
+
+.ashbin-fixed-image {
+    width: 100%; /* Full width of parent container */
+    height: 200px; /* Fixed height */
+    object-fit: cover; /* Maintains aspect ratio, fills the area */
+    border-radius: 5px; /* Optional: Adds rounded corners */
+}

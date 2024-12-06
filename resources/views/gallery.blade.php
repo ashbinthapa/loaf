@@ -10,9 +10,9 @@
             <div class="card mb-4">
                 <!-- Display the first image as a thumbnail -->
                 @if (!empty($gallery->image_url) && is_array($gallery->image_url))
-                <img src="{{ asset('storage/' . $gallery->image_url[0]) }}" class="card-img-top" alt="{{ $gallery->title }}">
+                <img src="{{ asset('storage/' . $gallery->image_url[0]) }}" class="card-img-top ashbin-fixed-image" alt="{{ $gallery->title }}">
                 @else
-                <img src="{{ asset('default-placeholder.png') }}" class="card-img-top" alt="Default Image">
+                <img src="{{ asset('default-placeholder.png') }}" class="card-img-top ashbin-fixed-image" alt="Default Image">
                 @endif
                 <div class="card-body">
                     <h5 class="card-title">{{ $gallery->title }}</h5>
