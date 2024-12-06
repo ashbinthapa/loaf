@@ -8,6 +8,11 @@ class Gallery extends Model
 {
     protected $fillable = [
         'title',
-        'image',
+        'description',
+        'image_url',
+    ];
+
+    protected $casts = [
+        'image_url' => 'array', // Automatically handle JSON encoding/decoding
     ];
 }

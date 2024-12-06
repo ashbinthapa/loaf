@@ -23,7 +23,17 @@ class GalleryResource extends Resource
     {
         return $form
             ->schema([
-                //
+                Forms\Components\TextInput::make('title')
+                    ->required()
+                    ->label('title'),
+                Forms\Components\TextInput::make('description')
+                    ->label('Description'),
+
+                Forms\Components\FileUpload::make('image_url')
+                    ->directory('images') // This ensures images are uploaded to /public/images
+                    ->label('Uploads')
+                    ->preserveFilenames()
+                    ->multiple(),
             ]);
     }
 
@@ -31,7 +41,12 @@ class GalleryResource extends Resource
     {
         return $table
             ->columns([
-                //
+                Tables\Columns\TextColumn::make('title')
+                    ->sortable()
+                    ->searchable(),
+                Tables\Columns\Imagecolumn::make('image_url')
+                    ->circular()
+                    ->label('Image'),
             ])
             ->filters([
                 //
