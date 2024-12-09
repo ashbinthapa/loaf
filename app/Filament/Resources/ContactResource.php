@@ -2,9 +2,9 @@
 
 namespace App\Filament\Resources;
 
-use App\Filament\Resources\UploadResource\Pages;
-use App\Filament\Resources\UploadResource\RelationManagers;
-use App\Models\Upload;
+use App\Filament\Resources\ContactResource\Pages;
+use App\Filament\Resources\ContactResource\RelationManagers;
+use App\Models\Contact;
 use Filament\Forms;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
@@ -12,12 +12,12 @@ use Filament\Tables;
 use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
-use Webbingbrasil\FilamentCopyActions\Tables\CopyableTextColumn;
+use Mohamedsabil83\FilamentFormsTinyeditor\Components\TinyEditor;
 
 
-class UploadResource extends Resource
+class ContactResource extends Resource
 {
-    protected static ?string $model = Upload::class;
+    protected static ?string $model = Contact::class;
 
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
 
@@ -25,17 +25,11 @@ class UploadResource extends Resource
     {
         return $form
             ->schema([
-                Forms\Components\TextInput::make('title')
-                    ->required()
-                    ->label('title'),
-
-                Forms\Components\FileUpload::make('url')
-                    ->directory('images') // This ensures images are uploaded to /public/images
-                    ->label('Uploads')
-                    ->preserveFilenames(),
-
-
-
+                TinyEditor::make('content')
+                    ->fileAttachmentsDisk('local')
+                    ->fileAttachmentsVisibility('public')
+                    ->fileAttachmentsDirectory('uploads')
+                    ->columnSpan('full')
             ]);
     }
 
@@ -43,17 +37,14 @@ class UploadResource extends Resource
     {
         return $table
             ->columns([
-                Tables\Columns\TextColumn::make('title')->sortable()->searchable(),
-                Tables\Columns\TextColumn::make('url'),
-
-
+                Tables\Columns\TextColumn::make('content')
+                    ->label('Content')
             ])
             ->filters([
                 //
             ])
             ->actions([
                 Tables\Actions\EditAction::make(),
-                CopyAction::make()->copyable(fn ($record) => $record->name),
             ])
             ->bulkActions([
                 Tables\Actions\BulkActionGroup::make([
@@ -72,9 +63,9 @@ class UploadResource extends Resource
     public static function getPages(): array
     {
         return [
-            'index' => Pages\ListUploads::route('/'),
-            'create' => Pages\CreateUpload::route('/create'),
-            'edit' => Pages\EditUpload::route('/{record}/edit'),
+            'index' => Pages\ListContacts::route('/'),
+            'create' => Pages\CreateContact::route('/create'),
+            'edit' => Pages\EditContact::route('/{record}/edit'),
         ];
     }
 }
