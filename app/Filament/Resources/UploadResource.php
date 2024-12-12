@@ -12,7 +12,6 @@ use Filament\Tables;
 use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
-use Webbingbrasil\FilamentCopyActions\Tables\CopyableTextColumn;
 
 
 class UploadResource extends Resource
@@ -53,7 +52,6 @@ class UploadResource extends Resource
             ])
             ->actions([
                 Tables\Actions\EditAction::make(),
-                CopyAction::make()->copyable(fn ($record) => $record->name),
             ])
             ->bulkActions([
                 Tables\Actions\BulkActionGroup::make([
