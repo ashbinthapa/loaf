@@ -67,16 +67,35 @@
                     <li><a href="https://idea.isernepal.org/">IDEA</a></li>
                 </ul>
                 <h3 class="ashbin-widget-title"><span>Downloads</span></h3>
-                <a href="/images/index/Household_Agriculture_and_Migration_Survey_Questionnaire_English.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>
-                    Household Agriculture Survey Questionnaire </a></br>
-                <a href="/images/index/LOAF_SST_July2015_Gallery-1.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>
-                    LOAF Specific Training</a>
-                </br> </br>
+                <div class="ashbin-download-alingment">
+                    <a href="/images/index/Household_Agriculture_and_Migration_Survey_Questionnaire_English.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+                        Household Agriculture Survey Questionnaire </a></br>
+                    <a href="/images/index/LOAF_SST_July2015_Gallery-1.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+                        LOAF Specific Training</a>
+                </div>
+                </br>
 
 
                 <h3 class="ashbin-widget-title"><span>Recent Activities</span></h3>
-
-
+                <ul>
+                    <li><a href="/trainings">
+                            <div class="item">General Interviewing Techniques (GIT) Training</div>
+                        </a>
+                    </li>
+                    <li><a href="/study specific training">
+                            <div class="item">Study Specific Training</div>
+                        </a></li>
+                    <li><a href="/supervisors training">
+                            <div class="item">Supervisors Training</div>
+                        </a>
+                    </li>
+                    <li><a href="/crop cutting training">
+                            <div class="item">Crop Cutting Training</div>
+                        </a></li>
+                    <li><a href="/survey data analysis training">
+                            <div class="item">Survey Data Analysis Training</div>
+                        </a></li>
+                </ul>
             </div>
         </div>
     </div>

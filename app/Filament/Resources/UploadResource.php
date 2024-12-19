@@ -44,8 +44,6 @@ class UploadResource extends Resource
             ->columns([
                 Tables\Columns\TextColumn::make('title')->sortable()->searchable(),
                 Tables\Columns\TextColumn::make('url'),
-
-
             ])
             ->filters([
                 //

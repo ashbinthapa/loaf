@@ -2,8 +2,25 @@
 <div class="container ashbin-footer-end">
     <div class="row">
         <div class="col-6">
-            {{ $formattedDate }} |
+            {{ $formattedDate }} |</br>
             Latest:
+            <div class="ticker-container">
+                <a href="/trainings">
+                    <div class="ticker-item">General Interviewing Techniques (GIT) Training</div>
+                </a>
+                <a href="/study specific training">
+                    <div class="ticker-item">Study Specific Training</div>
+                </a>
+                <a href="/supervisors training">
+                    <div class="ticker-item">Supervisors Training</div>
+                </a>
+                <a href="/crop cutting training">
+                    <div class="ticker-item">Crop Cutting Training</div>
+                </a>
+                <a href="/survey data analysis training">
+                    <div class="ticker-item">Survey Data Analysis Training</div>
+                </a>
+            </div>
         </div>
         <div class="col-6">
             <a href="https://www.facebook.com/isernepalofficial/?ref=aymt_homepage_panel&eid=ARCZ8VyOFfG6ZEJl7hyyqg7-0wlTGyxtRQQwQU2psMbjH59aUSY-HQ5o-YnV3JiVR1NXkPDdzVzzR-06">

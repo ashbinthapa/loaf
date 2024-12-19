@@ -302,3 +302,11 @@ header {
     object-fit: cover; /* Maintains aspect ratio, fills the area */
     border-radius: 5px; /* Optional: Adds rounded corners */
 }
+
+.dropdown-menu[data-bs-popper] {
+    left: auto !important; /* Reset Bootstrap's default left alignment */
+}
+
+.ashbin-download-alingment {
+    padding: 0 0 0 12px;
+}
